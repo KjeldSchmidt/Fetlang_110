@@ -1,14 +1,14 @@
 (Set Paula as empty chain)
 (Set Julia as the Input String)
 (Set Sarah as Output String)
-(Set Carla as 1 String constant)
+(Set AsciiOcto as 1 String constant)
 (Set Jenny as 0 String constant)
 Make Paula moan
 Make Sarah moan
 Make Julia moan "#00011000#"
-Lick Anne forty eight times
-Lick Betty forty nine times
-Lick Carla's thigh thirty five times
+Lick AsciiZero forty eight times
+Lick AsciiOne forty nine times
+Lick AsciiOcto's thigh thirty five times
 Lick Jenny's knuckle fourty six times
 
 Worship Counter
@@ -24,31 +24,103 @@ Lick Number7 seven times
 Lick Number8 eight times
 Lick Number9 nine times
 
-Make position0 moan
-Make position1 moan
 Make position2 moan
 Make position3 moan
 Make position4 moan
 Make position5 moan
 Make position6 moan
 Make position7 moan
-Make position8 moan
-Make position9 moan
+
+
+Make nextposition2 moan
+Make nextposition3 moan
+Make nextposition4 moan
+Make nextposition5 moan
+Make nextposition6 moan
+Make nextposition7 moan
+
+Worship left
+Worship middle
+Worship right
+
 
 Bind Emma to Julia
-	If Emma is not Carla
-		If counter is submissive to number2
-			If counter is dominant towards number 0
-				Have Emma hogtie position 0
+	If Emma is not AsciiOcto
+		If counter is submissive to number4
+			If counter is dominant towards number0
+				Have Emma hogtie position2
 
+		If counter is submissive to number5
+			If counter is dominant towards number1
+				Have Emma hogtie position3
+
+		If counter is submissive to number6
+			If counter is dominant towards number2
+				Have Emma hogtie position4
+
+		If counter is submissive to number7
+			If counter is dominant towards number3
+				Have Emma hogtie position5
+
+		If counter is submissive to number8
+			If counter is dominant towards number4
+				Have Emma hogtie position6
+
+		If counter is submissive to number9
+			If counter is dominant towards number5
+				Have Emma hogtie position7
+
+		( UNUSED CODE INC ) (
 		Make Sarah moan "."
 		If Emma is Anne's plaything
 			Make Paula moan "."
 		If Emma is Betty's crush
 			Make Paula moan "#"
 		Make slave scream Paula's name
-		Make Paula Moan
+		Make Paula Moan )
+		( UNUSED CODE END )
 
 	Lick counter
 
-Make slave scream position1
+Have counter spank counter
+
+Bind Emma to position2
+	if counter is number0
+		If Emma is AsciiZero
+			Have AsciiZero lick left
+		Otherwise
+			Have AsciiOne lick left
+	if counter is number1
+		If Emma is AsciiZero
+			Have AsciiZero lick middle
+		Otherwise
+			Have AsciiOne lick middle
+	if counter is number2
+		If Emma is AsciiZero
+			Have AsciiZero lick right
+		Otherwise
+			Have AsciiOne lick right
+	Lick counter
+
+	
+if left is AsciiOne
+	if middle is AsciiOne
+		if right is AsciiZero
+			Have AsciiOne hogtie nextposition2
+		otherwise
+			have AsciiZero hogtie nextposition2
+	if middle is AsciiZero
+		if right is AsciiOne
+			have AsciiOne hogtie nextposition2
+		otherwise
+			have AsciiZero hogtie nextposition2
+if left is AsciiZero
+	if middle is AsciiOne
+		Have AsciiOne hogtie nextposition2
+	otherwise
+		if right is AsciiOne
+			Have AsciiOne hogtie nextposition2
+		otherwise
+			have AsciiZero hogtie nextposition2
+
+make slave scream nextposition2
