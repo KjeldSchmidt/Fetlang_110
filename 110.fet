@@ -1,22 +1,35 @@
-(Set Laura as empty chain)
-(Set Claire as Number 0)
-(Set Julia as a String)
+(Set Paula as empty chain)
+(Set Julia as the Input String)
+(Set Sarah as Output String)
 (Set Carla as 1 String constant)
 (Set Jenny as 0 String constant)
-Make Laura moan
-Worship Claire
-Make Julia moan "0110"
+Make Paula moan
+Make Sarah moan
+Make Julia moan "#00011000#"
 Lick Anne forty eight times
 Lick Betty forty nine times
 Lick Carla's thigh thirty five times
 Lick Jenny's knuckle fourty six times
 
+Lick Position0
+Lick Position1 two times
+Lick Position2 three times
+Lick Position3 four times
+Lick Position4 five times
+Lick Position5 six times
+Lick Position6 seven times
+Lick Position7 eight times
+Lick Position8 nine times
+Lick Position9 ten times
+
 
 Bind Emma to Julia
-	If Emma is Anne's plaything
-		Make Laura moan "."
-	If Emma is Betty's crush
-		Make Laura moan "#"
-	Make slave scream Laura's name
-	Make Laura Moan
+	If Emma is not Carla
+		Make Sarah moan "."
+		If Emma is Anne's plaything
+			Make Paula moan "."
+		If Emma is Betty's crush
+			Make Paula moan "#"
+		Make slave scream Paula's name
+		Make Paula Moan
 
