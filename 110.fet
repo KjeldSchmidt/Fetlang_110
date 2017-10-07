@@ -11,20 +11,36 @@ Lick Betty forty nine times
 Lick Carla's thigh thirty five times
 Lick Jenny's knuckle fourty six times
 
-Lick Position0
-Lick Position1 two times
-Lick Position2 three times
-Lick Position3 four times
-Lick Position4 five times
-Lick Position5 six times
-Lick Position6 seven times
-Lick Position7 eight times
-Lick Position8 nine times
-Lick Position9 ten times
+Worship Counter
 
+Worship Number0
+Lick Number1
+Lick Number2 two times
+Lick Number3 three times
+Lick Number4 four times
+Lick Number5 five times
+Lick Number6 six times
+Lick Number7 seven times
+Lick Number8 eight times
+Lick Number9 nine times
+
+Make position0 moan
+Make position1 moan
+Make position2 moan
+Make position3 moan
+Make position4 moan
+Make position5 moan
+Make position6 moan
+Make position7 moan
+Make position8 moan
+Make position9 moan
 
 Bind Emma to Julia
 	If Emma is not Carla
+		If counter is submissive to number2
+			If counter is dominant towards number 0
+				Have Emma hogtie position 0
+
 		Make Sarah moan "."
 		If Emma is Anne's plaything
 			Make Paula moan "."
@@ -33,3 +49,6 @@ Bind Emma to Julia
 		Make slave scream Paula's name
 		Make Paula Moan
 
+	Lick counter
+
+Make slave scream position1
