@@ -1,17 +1,18 @@
-(Set Paula as empty chain)
+(Set Laura as empty output chain)
 (Set Julia as the Input String)
-(Set Sarah as Output String)
-(Set AsciiOcto as 1 String constant)
-(Set Jenny as 0 String constant)
-Make Paula moan
-Make Sarah moan
-Make Julia moan "#00011000#"
+
+Make Laura moan
+Make Julia moan "#00000001#"
+
+Make startString moan "#0"
+Make endString moan "0#"
+
 Lick AsciiZero forty eight times
 Lick AsciiOne forty nine times
-Lick AsciiOcto's thigh thirty five times
-Lick Jenny's knuckle fourty six times
+Lick AsciiOcto's thigh thirty five times (Numerical constant for #)
 
 Worship Counter
+Worship iterations
 
 Worship Number0
 Lick Number1
@@ -44,315 +45,399 @@ Worship middle
 Worship right
 
 
-Bind Emma to Julia
-	If Emma is not AsciiOcto
-		If counter is submissive to number4
-			If counter is dominant towards number0
-				Have Emma hogtie position2
+while iterations is submissive to Number9
 
-		If counter is submissive to number5
-			If counter is dominant towards number1
-				Have Emma hogtie position3
+	Make position2 moan
+	Make position3 moan
+	Make position4 moan
+	Make position5 moan
+	Make position6 moan
+	Make position7 moan
 
-		If counter is submissive to number6
-			If counter is dominant towards number2
-				Have Emma hogtie position4
 
-		If counter is submissive to number7
-			If counter is dominant towards number3
-				Have Emma hogtie position5
+	Make nextposition2 moan
+	Make nextposition3 moan
+	Make nextposition4 moan
+	Make nextposition5 moan
+	Make nextposition6 moan
+	Make nextposition7 moan
 
-		If counter is submissive to number8
-			If counter is dominant towards number4
-				Have Emma hogtie position6
+	Have left spank left
+	Have middle spank middle
+	Have right spank right
 
-		If counter is submissive to number9
-			If counter is dominant towards number5
-				Have Emma hogtie position7
-	Lick counter
+	lick iterations
+	make slave scream julia
 
-( BEGINNING OF HIGHLY REPETETIVE CODE )
-Have counter spank counter
-Have left spank left
-Have middle spank middle
-Have right spank right
 
-Bind Emma to position2
-	if counter is number0
-		If Emma is AsciiZero
-			Have AsciiZero lick left
-		Otherwise
-			Have AsciiOne lick left
-	if counter is number1
-		If Emma is AsciiZero
-			Have AsciiZero lick middle
-		Otherwise
-			Have AsciiOne lick middle
-	if counter is number2
-		If Emma is AsciiZero
-			Have AsciiZero lick right
-		Otherwise
-			Have AsciiOne lick right
-	Lick counter
+	Bind Emma to Julia
+		If Emma is not AsciiOcto
+			If counter is submissive to number4
+				If counter is dominant towards number0
+					Have Emma hogtie position2
 
-	
-if left is AsciiOne
-	if middle is AsciiOne
-		if right is AsciiZero
+			If counter is submissive to number5
+				If counter is dominant towards number1
+					Have Emma hogtie position3
+
+			If counter is submissive to number6
+				If counter is dominant towards number2
+					Have Emma hogtie position4
+
+			If counter is submissive to number7
+				If counter is dominant towards number3
+					Have Emma hogtie position5
+
+			If counter is submissive to number8
+				If counter is dominant towards number4
+					Have Emma hogtie position6
+
+			If counter is submissive to number9
+				If counter is dominant towards number5
+					Have Emma hogtie position7
+		Lick counter
+
+	( BEGINNING OF HIGHLY REPETETIVE CODE )
+	Have counter spank counter
+	Have left spank left
+	Have middle spank middle
+	Have right spank right
+
+	Bind Emma to position2
+		if counter is number0
+			If Emma is AsciiZero
+				Have AsciiZero lick left
+			Otherwise
+				Have AsciiOne lick left
+		if counter is number1
+			If Emma is AsciiZero
+				Have AsciiZero lick middle
+			Otherwise
+				Have AsciiOne lick middle
+		if counter is number2
+			If Emma is AsciiZero
+				Have AsciiZero lick right
+			Otherwise
+				Have AsciiOne lick right
+		Lick counter
+
+		
+	if left is AsciiOne
+		if middle is AsciiOne
+			if right is AsciiZero
+				Have AsciiOne hogtie nextposition2
+			otherwise
+				have AsciiZero hogtie nextposition2
+		if middle is AsciiZero
+			if right is AsciiOne
+				have AsciiOne hogtie nextposition2
+			otherwise
+				have AsciiZero hogtie nextposition2
+	if left is AsciiZero
+		if middle is AsciiOne
 			Have AsciiOne hogtie nextposition2
 		otherwise
-			have AsciiZero hogtie nextposition2
-	if middle is AsciiZero
-		if right is AsciiOne
-			have AsciiOne hogtie nextposition2
-		otherwise
-			have AsciiZero hogtie nextposition2
-if left is AsciiZero
-	if middle is AsciiOne
-		Have AsciiOne hogtie nextposition2
-	otherwise
-		if right is AsciiOne
-			Have AsciiOne hogtie nextposition2
-		otherwise
-			have AsciiZero hogtie nextposition2
-( END OF ONE ITERATION OF HIGHLY REPETETIVE CODE )
+			if right is AsciiOne
+				Have AsciiOne hogtie nextposition2
+			otherwise
+				have AsciiZero hogtie nextposition2
+	( END OF ONE ITERATION OF HIGHLY REPETETIVE CODE )
 
-( BEGINNING OF HIGHLY REPETETIVE CODE )
-Have counter spank counter
-Have left spank left
-Have middle spank middle
-Have right spank right
+	( BEGINNING OF HIGHLY REPETETIVE CODE )
+	Have counter spank counter
+	Have left spank left
+	Have middle spank middle
+	Have right spank right
 
-Bind Emma to position3
-	if counter is number0
-		If Emma is AsciiZero
-			Have AsciiZero lick left
-		Otherwise
-			Have AsciiOne lick left
-	if counter is number1
-		If Emma is AsciiZero
-			Have AsciiZero lick middle
-		Otherwise
-			Have AsciiOne lick middle
-	if counter is number2
-		If Emma is AsciiZero
-			Have AsciiZero lick right
-		Otherwise
-			Have AsciiOne lick right
-	Lick counter
+	Bind Emma to position3
+		if counter is number0
+			If Emma is AsciiZero
+				Have AsciiZero lick left
+			Otherwise
+				Have AsciiOne lick left
+		if counter is number1
+			If Emma is AsciiZero
+				Have AsciiZero lick middle
+			Otherwise
+				Have AsciiOne lick middle
+		if counter is number2
+			If Emma is AsciiZero
+				Have AsciiZero lick right
+			Otherwise
+				Have AsciiOne lick right
+		Lick counter
 
-	
-if left is AsciiOne
-	if middle is AsciiOne
-		if right is AsciiZero
+		
+	if left is AsciiOne
+		if middle is AsciiOne
+			if right is AsciiZero
+				Have AsciiOne hogtie nextposition3
+			otherwise
+				have AsciiZero hogtie nextposition3
+		if middle is AsciiZero
+			if right is AsciiOne
+				have AsciiOne hogtie nextposition3
+			otherwise
+				have AsciiZero hogtie nextposition3
+	if left is AsciiZero
+		if middle is AsciiOne
 			Have AsciiOne hogtie nextposition3
 		otherwise
-			have AsciiZero hogtie nextposition3
-	if middle is AsciiZero
-		if right is AsciiOne
-			have AsciiOne hogtie nextposition3
-		otherwise
-			have AsciiZero hogtie nextposition3
-if left is AsciiZero
-	if middle is AsciiOne
-		Have AsciiOne hogtie nextposition3
-	otherwise
-		if right is AsciiOne
-			Have AsciiOne hogtie nextposition3
-		otherwise
-			have AsciiZero hogtie nextposition3
-( END OF ONE ITERATION OF HIGHLY REPETETIVE CODE )
+			if right is AsciiOne
+				Have AsciiOne hogtie nextposition3
+			otherwise
+				have AsciiZero hogtie nextposition3
+	( END OF ONE ITERATION OF HIGHLY REPETETIVE CODE )
 
-( BEGINNING OF HIGHLY REPETETIVE CODE )
-Have counter spank counter
-Have left spank left
-Have middle spank middle
-Have right spank right
+	( BEGINNING OF HIGHLY REPETETIVE CODE )
+	Have counter spank counter
+	Have left spank left
+	Have middle spank middle
+	Have right spank right
 
-Bind Emma to position4
-	if counter is number0
-		If Emma is AsciiZero
-			Have AsciiZero lick left
-		Otherwise
-			Have AsciiOne lick left
-	if counter is number1
-		If Emma is AsciiZero
-			Have AsciiZero lick middle
-		Otherwise
-			Have AsciiOne lick middle
-	if counter is number2
-		If Emma is AsciiZero
-			Have AsciiZero lick right
-		Otherwise
-			Have AsciiOne lick right
-	Lick counter
+	Bind Emma to position4
+		if counter is number0
+			If Emma is AsciiZero
+				Have AsciiZero lick left
+			Otherwise
+				Have AsciiOne lick left
+		if counter is number1
+			If Emma is AsciiZero
+				Have AsciiZero lick middle
+			Otherwise
+				Have AsciiOne lick middle
+		if counter is number2
+			If Emma is AsciiZero
+				Have AsciiZero lick right
+			Otherwise
+				Have AsciiOne lick right
+		Lick counter
 
-	
-if left is AsciiOne
-	if middle is AsciiOne
-		if right is AsciiZero
+		
+	if left is AsciiOne
+		if middle is AsciiOne
+			if right is AsciiZero
+				Have AsciiOne hogtie nextposition4
+			otherwise
+				have AsciiZero hogtie nextposition4
+		if middle is AsciiZero
+			if right is AsciiOne
+				have AsciiOne hogtie nextposition4
+			otherwise
+				have AsciiZero hogtie nextposition4
+	if left is AsciiZero
+		if middle is AsciiOne
 			Have AsciiOne hogtie nextposition4
 		otherwise
-			have AsciiZero hogtie nextposition4
-	if middle is AsciiZero
-		if right is AsciiOne
-			have AsciiOne hogtie nextposition4
-		otherwise
-			have AsciiZero hogtie nextposition4
-if left is AsciiZero
-	if middle is AsciiOne
-		Have AsciiOne hogtie nextposition4
-	otherwise
-		if right is AsciiOne
-			Have AsciiOne hogtie nextposition4
-		otherwise
-			have AsciiZero hogtie nextposition4
-( END OF ONE ITERATION OF HIGHLY REPETETIVE CODE )
+			if right is AsciiOne
+				Have AsciiOne hogtie nextposition4
+			otherwise
+				have AsciiZero hogtie nextposition4
+	( END OF ONE ITERATION OF HIGHLY REPETETIVE CODE )
 
-( BEGINNING OF HIGHLY REPETETIVE CODE )
-Have counter spank counter
-Have left spank left
-Have middle spank middle
-Have right spank right
+	( BEGINNING OF HIGHLY REPETETIVE CODE )
+	Have counter spank counter
+	Have left spank left
+	Have middle spank middle
+	Have right spank right
 
-Bind Emma to position5
-	if counter is number0
-		If Emma is AsciiZero
-			Have AsciiZero lick left
-		Otherwise
-			Have AsciiOne lick left
-	if counter is number1
-		If Emma is AsciiZero
-			Have AsciiZero lick middle
-		Otherwise
-			Have AsciiOne lick middle
-	if counter is number2
-		If Emma is AsciiZero
-			Have AsciiZero lick right
-		Otherwise
-			Have AsciiOne lick right
-	Lick counter
+	Bind Emma to position5
+		if counter is number0
+			If Emma is AsciiZero
+				Have AsciiZero lick left
+			Otherwise
+				Have AsciiOne lick left
+		if counter is number1
+			If Emma is AsciiZero
+				Have AsciiZero lick middle
+			Otherwise
+				Have AsciiOne lick middle
+		if counter is number2
+			If Emma is AsciiZero
+				Have AsciiZero lick right
+			Otherwise
+				Have AsciiOne lick right
+		Lick counter
 
-	
-if left is AsciiOne
-	if middle is AsciiOne
-		if right is AsciiZero
+		
+	if left is AsciiOne
+		if middle is AsciiOne
+			if right is AsciiZero
+				Have AsciiOne hogtie nextposition5
+			otherwise
+				have AsciiZero hogtie nextposition5
+		if middle is AsciiZero
+			if right is AsciiOne
+				have AsciiOne hogtie nextposition5
+			otherwise
+				have AsciiZero hogtie nextposition5
+	if left is AsciiZero
+		if middle is AsciiOne
 			Have AsciiOne hogtie nextposition5
 		otherwise
-			have AsciiZero hogtie nextposition5
-	if middle is AsciiZero
-		if right is AsciiOne
-			have AsciiOne hogtie nextposition5
-		otherwise
-			have AsciiZero hogtie nextposition5
-if left is AsciiZero
-	if middle is AsciiOne
-		Have AsciiOne hogtie nextposition5
-	otherwise
-		if right is AsciiOne
-			Have AsciiOne hogtie nextposition5
-		otherwise
-			have AsciiZero hogtie nextposition5
-( END OF ONE ITERATION OF HIGHLY REPETETIVE CODE )
+			if right is AsciiOne
+				Have AsciiOne hogtie nextposition5
+			otherwise
+				have AsciiZero hogtie nextposition5
+	( END OF ONE ITERATION OF HIGHLY REPETETIVE CODE )
 
-( BEGINNING OF HIGHLY REPETETIVE CODE )
-Have counter spank counter
-Have left spank left
-Have middle spank middle
-Have right spank right
+	( BEGINNING OF HIGHLY REPETETIVE CODE )
+	Have counter spank counter
+	Have left spank left
+	Have middle spank middle
+	Have right spank right
 
-Bind Emma to position6
-	if counter is number0
-		If Emma is AsciiZero
-			Have AsciiZero lick left
-		Otherwise
-			Have AsciiOne lick left
-	if counter is number1
-		If Emma is AsciiZero
-			Have AsciiZero lick middle
-		Otherwise
-			Have AsciiOne lick middle
-	if counter is number2
-		If Emma is AsciiZero
-			Have AsciiZero lick right
-		Otherwise
-			Have AsciiOne lick right
-	Lick counter
+	Bind Emma to position6
+		if counter is number0
+			If Emma is AsciiZero
+				Have AsciiZero lick left
+			Otherwise
+				Have AsciiOne lick left
+		if counter is number1
+			If Emma is AsciiZero
+				Have AsciiZero lick middle
+			Otherwise
+				Have AsciiOne lick middle
+		if counter is number2
+			If Emma is AsciiZero
+				Have AsciiZero lick right
+			Otherwise
+				Have AsciiOne lick right
+		Lick counter
 
-	
-if left is AsciiOne
-	if middle is AsciiOne
-		if right is AsciiZero
+		
+	if left is AsciiOne
+		if middle is AsciiOne
+			if right is AsciiZero
+				Have AsciiOne hogtie nextposition6
+			otherwise
+				have AsciiZero hogtie nextposition6
+		if middle is AsciiZero
+			if right is AsciiOne
+				have AsciiOne hogtie nextposition6
+			otherwise
+				have AsciiZero hogtie nextposition6
+	if left is AsciiZero
+		if middle is AsciiOne
 			Have AsciiOne hogtie nextposition6
 		otherwise
-			have AsciiZero hogtie nextposition6
-	if middle is AsciiZero
-		if right is AsciiOne
-			have AsciiOne hogtie nextposition6
-		otherwise
-			have AsciiZero hogtie nextposition6
-if left is AsciiZero
-	if middle is AsciiOne
-		Have AsciiOne hogtie nextposition6
-	otherwise
-		if right is AsciiOne
-			Have AsciiOne hogtie nextposition6
-		otherwise
-			have AsciiZero hogtie nextposition6
-( END OF ONE ITERATION OF HIGHLY REPETETIVE CODE )
+			if right is AsciiOne
+				Have AsciiOne hogtie nextposition6
+			otherwise
+				have AsciiZero hogtie nextposition6
+	( END OF ONE ITERATION OF HIGHLY REPETETIVE CODE )
 
-( BEGINNING OF HIGHLY REPETETIVE CODE )
-Have counter spank counter
-Have left spank left
-Have middle spank middle
-Have right spank right
+	( BEGINNING OF HIGHLY REPETETIVE CODE )
+	Have counter spank counter
+	Have left spank left
+	Have middle spank middle
+	Have right spank right
 
-Bind Emma to position7
-	if counter is number0
-		If Emma is AsciiZero
-			Have AsciiZero lick left
-		Otherwise
-			Have AsciiOne lick left
-	if counter is number1
-		If Emma is AsciiZero
-			Have AsciiZero lick middle
-		Otherwise
-			Have AsciiOne lick middle
-	if counter is number2
-		If Emma is AsciiZero
-			Have AsciiZero lick right
-		Otherwise
-			Have AsciiOne lick right
-	Lick counter
+	Bind Emma to position7
+		if counter is number0
+			If Emma is AsciiZero
+				Have AsciiZero lick left
+			Otherwise
+				Have AsciiOne lick left
+		if counter is number1
+			If Emma is AsciiZero
+				Have AsciiZero lick middle
+			Otherwise
+				Have AsciiOne lick middle
+		if counter is number2
+			If Emma is AsciiZero
+				Have AsciiZero lick right
+			Otherwise
+				Have AsciiOne lick right
+		Lick counter
 
-	
-if left is AsciiOne
-	if middle is AsciiOne
-		if right is AsciiZero
+		
+	if left is AsciiOne
+		if middle is AsciiOne
+			if right is AsciiZero
+				Have AsciiOne hogtie nextposition7
+			otherwise
+				have AsciiZero hogtie nextposition7
+		if middle is AsciiZero
+			if right is AsciiOne
+				have AsciiOne hogtie nextposition7
+			otherwise
+				have AsciiZero hogtie nextposition7
+	if left is AsciiZero
+		if middle is AsciiOne
 			Have AsciiOne hogtie nextposition7
 		otherwise
-			have AsciiZero hogtie nextposition7
-	if middle is AsciiZero
-		if right is AsciiOne
-			have AsciiOne hogtie nextposition7
-		otherwise
-			have AsciiZero hogtie nextposition7
-if left is AsciiZero
-	if middle is AsciiOne
-		Have AsciiOne hogtie nextposition7
-	otherwise
-		if right is AsciiOne
-			Have AsciiOne hogtie nextposition7
-		otherwise
-			have AsciiZero hogtie nextposition7
-( END OF ONE ITERATION OF HIGHLY REPETETIVE CODE )
+			if right is AsciiOne
+				Have AsciiOne hogtie nextposition7
+			otherwise
+				have AsciiZero hogtie nextposition7
+	( END OF ONE ITERATION OF HIGHLY REPETETIVE CODE )
 
-make slave scream julia
-make slave moan "#0"
-make slave moan nextposition2
-make slave moan nextposition3
-make slave moan nextposition4
-make slave moan nextposition5
-make slave moan nextposition6
-make slave moan nextposition7
-make slave scream "0#"
+
+
+	make Laura moan "#0"
+	bind Emma to nextposition2
+		if Emma is AsciiZero
+			have AsciiZero hogtie Laura
+		otherwise
+			have AsciiOne hogtie Laura
+	bind Emma to nextposition3
+		if Emma is AsciiZero
+			have AsciiZero hogtie Laura
+		otherwise
+			have AsciiOne hogtie Laura
+	bind Emma to nextposition4
+		if Emma is AsciiZero
+			have AsciiZero hogtie Laura
+		otherwise
+			have AsciiOne hogtie Laura
+	bind Emma to nextposition5
+		if Emma is AsciiZero
+			have AsciiZero hogtie Laura
+		otherwise
+			have AsciiOne hogtie Laura
+	bind Emma to nextposition6
+		if Emma is AsciiZero
+			have AsciiZero hogtie Laura
+		otherwise
+			have AsciiOne hogtie Laura
+	bind Emma to nextposition7
+		if Emma is AsciiZero
+			have AsciiZero hogtie Laura
+		otherwise
+			have AsciiOne hogtie Laura
+	have AsciiZero hogtie Laura
+	have AsciiOcto hogtie Laura
+
+
+	( End of loop cleanup )
+	Make Julia moan
+	bind Emma to Laura
+		have Emma hogtie Julia
+
+	Make Laura moan
+	Make nexpostion2 moan
+	Make nexpostion3 moan
+	Make nexpostion4 moan
+	Make nexpostion5 moan
+	Make nexpostion6 moan
+	Make nexpostion7 moan
+	make position0 moan
+	make position1 moan
+	make position2 moan
+	make position3 moan
+	make position4 moan
+	make position5 moan
+	make position6 moan
+	make position7 moan
+	make position8 moan
+	make position9 moan
+
+	Have counter spank counter
+	Have left spank left
+	Have middle spank middle
+	Have right spank right
+
+
+
+
