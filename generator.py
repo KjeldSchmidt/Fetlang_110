@@ -1,31 +1,35 @@
 ### ARGS ###
 
-iterations = 10;
-gridWidth = 20;
+iterations = 40;
+gridWidth = 40;
 
 
 ## Vars ##
 
 indentLevel = 0;
-file = None
+file = open("110-generated.fet", "w")
 
 def indent():
+	global indentLevel
 	indentLevel = indentLevel + 1
 
-def deindent():
+def unindent():
+	global indentLevel
 	indentLevel = indentLevel - 1
 
 def newline():
-	printcode( "" )
+	printCode( "" )
 
 def printCode( code ):
-	file.print( "\t" * indentLevel )
-	file.println( code )
+	global indentLevel
+	file.write( "\t" * indentLevel )
+	file.write( code )
+	file.write( "\n" )
 
 ## These things are constant for any size
 def generateIntro():
 	printCode( 'Make Laura moan' )
-	printCode( 'Make Julia moan "#00000001#"' )
+	printCode( 'Make Julia moan "#' + "0" * (gridWidth-3) + '1#"' )
 	newline()
 
 	printCode( 'Make startString moan "#0"' )
@@ -51,10 +55,10 @@ def generateIntro():
 ## A better solution would write the string literal for the number, but this is generated code, so allow my laziness.
 def generateNumbers():
 	printCode( "Worship number0" )
-	for i in range( 1, gridWidth-1 ):
-		variableName = number + str( i )
+	for i in range( 1, max(gridWidth - 1, iterations)+1 ):
+		variableName = "number" + str( i )
 		for j in range (0, i):
-			printCode( "lick" + variableName )
+			printCode( "lick " + variableName )
 	newline()
 	newline()
 
@@ -65,7 +69,7 @@ def beginLoop():
 	newline()
 
 def setEmptyPositions():
-	for i in range (2, gridWidth - 3):
+	for i in range (2, gridWidth - 2):
 		printCode( "make position" + str(i) + " moan")
 		printCode( "make nextposition" + str(i) + " moan")
 	newline()
@@ -75,9 +79,12 @@ def resetTempVariables():
 	printCode( "Have left spank left" )
 	printCode( "Have middle spank middle" )
 	printCode( "Have right spank right" )
+	printCode( "Have counter spank counter" )
+	printCode( "Make Laura moan" )
+	newline()
 
 def incrementLoopCounter():
-	printCode( "lick counter" )
+	printCode( "lick iterations" )
 	newline()
 
 def printCurrentState():
@@ -85,11 +92,11 @@ def printCurrentState():
 	newline()
 
 def generateParentString( pos ):
-	printcode( "If counter is submissive to number" + str( pos + 2 ) )
+	printCode( "If counter is submissive to number" + str( pos + 2 ) )
 	indent()
-	printcode( "If counter is dominant towards number" + str( pos -2 ) )
+	printCode( "If counter is dominant towards number" + str( pos -2 ) )
 	indent()
-	printcode( "Have Emma hogtie position" + str( pos ) )
+	printCode( "Have Emma hogtie position" + str( pos ) )
 	unindent()
 	unindent()
 	newline()	
@@ -98,17 +105,26 @@ def generateParentString( pos ):
 #For each cell, we create a string that contains three chars: 
 #The ones relevant to it's activation.
 def getParentStrings():
-	printcode( "Bind Emma to Julia" )
+	printCode( "Bind Emma to Julia" )
 	indent()
-	printcode( "If Emma is not AsciiOcto" )
+	printCode( "If Emma is not AsciiOcto" )
 	indent()
-	for i in range (2, gridWidth - 3)
+	for i in range (2, gridWidth - 2):
 		generateParentString( i )
-	deindent()
-	printcode( "lick counter" )
+	unindent()
+	printCode( "lick counter" )
+	unindent()
+	newline()
+	newline()
+	newline()
 
 def getDescendants():
-	
+	for i in range (2, gridWidth - 2):
+		getDescendant( i )
+	newline()
+	newline()
+	newline()
+
 
 
 def getDescendant( pos ):
@@ -119,42 +135,43 @@ def getDescendant( pos ):
 	newline()
 	newline()
 
-	printcode( "Bind Emma to position" + str( pos ) )
+	printCode( "Bind Emma to position" + str( pos ) )
 	indent()
-	printcode( "if counter is number0" )
+	printCode( "if counter is number0" )
 	indent()
 	printCode( "If Emma is AsciiZero" )
 	indent()
 	printCode( "Have AsciiZero lick left" )
-	deindent()
+	unindent()
 	printCode( "Otherwise" )
 	indent()
 	printCode( "Have AsciiOne lick left" )
-	deindent()
-	deindent()
+	unindent()
+	unindent()
 	printCode( "if counter is number1" )
 	indent()
 	printCode( "If Emma is AsciiZero" )
 	indent()
 	printCode( "Have AsciiZero lick middle" )
-	deindent()
+	unindent()
 	printCode( "Otherwise" )
 	indent()
 	printCode( "Have AsciiOne lick middle" )
-	deindent()
-	deindent()
+	unindent()
+	unindent()
 	printCode( "if counter is number2" )
 	indent()
 	printCode( "If Emma is AsciiZero" )
 	indent()
 	printCode( "Have AsciiZero lick right" )
-	deindent()
+	unindent()
 	printCode( "Otherwise" )
 	indent()
 	printCode( "Have AsciiOne lick right" )
-	deindent()
-	deindent()
+	unindent()
+	unindent()
 	printCode( "Lick counter" )
+	unindent()
 	newline()
 	newline()
 
@@ -166,59 +183,89 @@ def getDescendant( pos ):
 	printCode( "if right is AsciiZero" )
 	indent()
 	printCode( "Have AsciiOne hogtie nextposition" + str( pos ) )
-	deindent()
+	unindent()
 	printCode( "otherwise" )
 	indent()
 	printCode( "have AsciiZero hogtie nextposition" + str( pos ) )
-	deindent()
-	deindent()
+	unindent()
+	unindent()
 	printCode( "if middle is AsciiZero" )
 	indent()
 	printCode( "if right is AsciiOne" )
 	indent()
 	printCode( "have AsciiOne hogtie nextposition" + str( pos ) )
-	deindent()
+	unindent()
 	printCode( "otherwise" )
 	indent()
 	printCode( "have AsciiZero hogtie nextposition" + str( pos ) )
-	deindent()
-	deindent()
-	deindent()
+	unindent()
+	unindent()
+	unindent()
 	printCode( "if left is AsciiZero" )
 	indent()
 	printCode( "if middle is AsciiOne" )
 	indent()
 	printCode( "Have AsciiOne hogtie nextposition" + str( pos ) )
-	deindent()
+	unindent()
 	printCode( "otherwise" )
 	indent()
 	printCode( "if right is AsciiOne" )
 	indent()
 	printCode( "Have AsciiOne hogtie nextposition" + str( pos ) )
-	deindent()
+	unindent()
 	printCode( "otherwise" )
 	indent()
 	printCode( "have AsciiZero hogtie nextposition" + str( pos ) )
-	deindent()
-	deindent()
-	deindent()
+	unindent()
+	unindent()
+	unindent()
 
 	newline()
 	newline()
 	newline()
+
+
+def writeNextGeneration():
+	printCode( "make Laura moan \"#0\"" )
+	for i in range (2, gridWidth - 2):
+		writeNextGenerationPosition( i )
+	printCode( "have AsciiZero hogtie Laura" )
+	printCode( "have AsciiOcto hogtie Laura" )
+	newline()
+	newline()
+	newline()
+
+def writeNextGenerationPosition( pos ):
+	printCode( "bind Emma to nextposition" + str( pos ) )
+	indent()
+	printCode( "if Emma is AsciiZero" )
+	indent()
+	printCode( "have AsciiZero hogtie Laura" )
+	unindent()
+	printCode( "otherwise" )
+	indent()
+	printCode( "have AsciiOne hogtie Laura" )
+	unindent()
+	unindent()
+
+def saveNextGeneration():
+	printCode( "Make Julia moan" )
+	printCode( "bind Emma to Laura" )
+	indent()
+	printCode( "have Emma hogtie Julia" )
 
 
 def main():
-	global file
-	with open("110-generated.fet", "rw") as file:
-		generateIntro()
-		generateNumbers()
-		beginLoop()
-		resetTempVariables()
-		setEmptyPositions()
-		incrementLoopCounter()
-		printCurrentState()
-		getParentStrings()
+	generateIntro()
+	generateNumbers()
+	beginLoop()
+	resetTempVariables()
+	setEmptyPositions()
+	incrementLoopCounter()
+	printCurrentState()
+	getParentStrings()
+	getDescendants()
+	writeNextGeneration()
+	saveNextGeneration()
 
-
-
+main()
