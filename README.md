@@ -2,6 +2,8 @@
 
 This repository provides proof of [Fetlangs](https://github.com/Property404/fetlang) Turing Completeness by implementing [Rule 110](https://en.wikipedia.org/wiki/Rule_110) in Fetlang.
 
+A detailled explanation of the code can be found [on my blog](http://www.kjeld-schmidt.com/functional-guide-to-fetlang/)
+
 To build and try it yourself, check install instructions on Fetlangs github page.
 
 I've neglected to add comand line parameters, so different starting configurations can only be tested by changing the source code. Sorry about that.
